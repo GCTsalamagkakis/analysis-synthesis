@@ -1,0 +1,71 @@
+{
+	"1": {
+		"type": "and",
+		"inputs": [
+			{"id": "6"},{"id": "5"}
+		],
+		"outputs": [
+			{"id": "7"}
+		],
+		"isGate": true
+	},
+	"2": {
+		"type": "and",
+		"inputs": [
+			{"id": "4"},{"id": "5"}
+		],
+		"outputs": [
+			{"id": "3"}
+		],
+		"isGate": true
+	},
+	"3": {
+		"type": "or",
+		"inputs": [
+			{"id": "1"},{"id": "2"}
+		],
+		"outputs": [
+			{"id": "5"}
+		],
+		"isGate": true
+	},
+	"4": {
+		"type": "not",
+		"inputs": [
+			{"id": "6"}
+		],
+		"outputs": [
+			{"id": "2"}
+		],
+		"isGate": true
+	},
+	"5": {
+		"type": "Aflipflop",
+		"inputs": [
+			{"id": "3"}
+		],
+		"outputs": [
+			{"id": "1"}
+		],
+		"outputsNegative": [
+			{"id": "2"}
+		],
+		"isGate": false
+	},
+	"6": {
+		"type": "x",
+		"inputs": [],
+		"outputs": [
+			{"id": "1"},{"id": "4"}
+		],
+		"isGate": false
+	},
+	"7": {
+		"type": "y",
+		"inputs": [
+			{"id": "1"}
+		],
+		"outputs": [],
+		"isGate": false
+	}
+}
