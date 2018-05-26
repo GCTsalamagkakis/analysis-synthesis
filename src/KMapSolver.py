@@ -1,7 +1,7 @@
 ###############################################
-# Karnaugh Map Solver by salmanmorshed		  #
+# Karnaugh Map Solver by salmanmorshed		  	#
 # https://github.com/salmanmorshed/KMapSolver #
-# Compatible in python 3.x					  #
+# Compatible in python 3.x					 				  #
 ###############################################
 
 from functools import reduce
