@@ -1,6 +1,6 @@
 ####################################################################################
 # Analysis and Synthesis of sequential circuits by G. C. Tsalamagkakis & K. Mantos #
-# Compatible in python 3.x							   							   												 #
+# Compatible in python 3.x		   					   #
 ####################################################################################
 
 import sys
